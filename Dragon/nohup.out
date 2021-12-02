@@ -1,0 +1,95 @@
+./rdragon iaea2d.x2m -quiet
+/tmp/rundir6
+[0;32m[OK][0m
+./rdragon g2s_prestation.x2m -quiet
+/tmp/rundir6
+[0;32m[OK][0m
+./rdragon salmacro.x2m -quiet
+/tmp/rundir6
+[0;32m[OK][0m
+./rdragon tmacro.x2m  -quiet
+/tmp/rundir6
+[0;31m[FAILED][0m
+./rdragon tdraglib.x2m -quiet
+/tmp/rundir6
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+#0  0x7F96AB27B6D7
+#1  0x7F96AB27BD1E
+#2  0x7F96AA7763FF
+#3  0x84D3B7 in snflux_
+#4  0x84B7E2 in snf_
+#5  0x951396 in doorfvr_
+#6  0x7899AF in fludbv_
+#7  0x784494 in flu2dr_
+#8  0x78EE34 in fludrv_
+#9  0x5236DD in flu_
+#10  0x403C91 in kdrdrv_
+#11  0x4036CE in dramod
+#12  0xB650B7 in cle2000_c
+#13  0xB6564A in cle2000_c
+#14  0xB4BC02 in kernel_
+#15  0x4031F8 in MAIN__ at DRAGON.f90:?
+./rdragon : ligne 114 : 25153 Erreur de segmentation  (core dumped)./code < mydata > $xxx.result
+[0;31m[FAILED][0m
+./rdragon twimsE.x2m -quiet
+/tmp/rundir6
+[0;32m[OK][0m
+./rdragon twlup.x2m -quiet
+/tmp/rundir6
+[0;32m[OK][0m
+./rdragon tmatxs2.x2m -quiet
+/tmp/rundir6
+[0;32m[OK][0m
+./rdragon trowland_shem295_jeff3.1.x2m -quiet
+/tmp/rundir6
+[0;32m[OK][0m
+./rdragon sens.x2m -quiet
+/tmp/rundir6
+[0;32m[OK][0m
+./rdragon testDuo.x2m -quiet
+/tmp/rundir6
+[0;32m[OK][0m
+./rdragon testDuo_B1.x2m -quiet
+/tmp/rundir6
+[0;32m[OK][0m
+./rdragon uo2_evo_xsm.x2m -quiet
+/tmp/rundir6
+[0;32m[OK][0m
+./rdragon C2D20.x2m -quiet
+/tmp/rundir6
+[0;32m[OK][0m
+./rdragon CFC-CELL.x2m -quiet
+/tmp/rundir6
+[0;32m[OK][0m
+./rdragon ErmBeavrsPwrRefl.x2m -quiet
+/tmp/rundir6
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+#0  0x7F6158FF26D7
+#1  0x7F6158FF2D1E
+#2  0x7F61584ED3FF
+#3  0x84D3B7 in snflux_
+#4  0x84B7E2 in snf_
+#5  0x951396 in doorfvr_
+#6  0x789BB2 in fludbv_
+#7  0x784494 in flu2dr_
+#8  0x78EE34 in fludrv_
+#9  0x5236DD in flu_
+#10  0x403C91 in kdrdrv_
+#11  0x4036CE in dramod
+#12  0xB650B7 in cle2000_c
+#13  0xB4BC02 in kernel_
+#14  0x4031F8 in MAIN__ at DRAGON.f90:?
+./rdragon : ligne 114 : 31843 Erreur de segmentation  (core dumped)./code < mydata > $xxx.result
+[0;31m[FAILED][0m
+./rdragon RegtestCNG_mccg.x2m -quiet
+/tmp/rundir6
+[0;32m[OK][0m
+./rdragon RegtestLZC_mccg.x2m -quiet
+/tmp/rundir6
+[0;32m[OK][0m
